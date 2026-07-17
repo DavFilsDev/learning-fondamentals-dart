@@ -15,8 +15,8 @@ void main() {
 
   print("\n NAMED PARAMETERS \n");
 
-  buildProfile(name: "Alice");
-  buildProfile(name: "Bob", age: 25);
+  buildProfile(name: "Mandresy");
+  buildProfile(name: "Hery", age: 25);
 
   print("\n FUNCTIONS ARE FIRST-CLASS OBJECTS \n");
 

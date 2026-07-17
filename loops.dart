@@ -57,7 +57,7 @@ void main() {
     print(i);
   }
 
-  print("\n========== CONTINUE ==========\n");
+  print("\n CONTINUE \n");
 
   for (int i = 0; i < 5; i++) {
     if (i == 2) {
@@ -68,7 +68,7 @@ void main() {
     print(i);
   }
 
-  print("\n========== NESTED LOOPS ==========\n");
+  print("\n NESTED LOOPS \n");
 
   for (int row = 1; row <= 3; row++) {
     for (int col = 1; col <= 3; col++) {
@@ -76,7 +76,7 @@ void main() {
     }
   }
 
-  print("\n========== LOOPING THROUGH A MAP ==========\n");
+  print("\n LOOPING THROUGH A MAP \n");
 
   Map<String, int> ages = {
     "Alice": 25,
@@ -88,7 +88,7 @@ void main() {
     print("$name is $age years old.");
   });
 
-  print("\n========== PRACTICAL EXAMPLE ==========\n");
+  print("\n PRACTICAL EXAMPLE \n");
 
   List<int> numbers = [5, 10, 15, 20, 25];
 
@@ -101,11 +101,11 @@ void main() {
   print("Numbers: $numbers");
   print("Sum = $sum");
 
-  print("\n========== COUNTDOWN ==========\n");
+  print("\n COUNTDOWN \n");
 
   for (int i = 5; i >= 1; i--) {
     print(i);
   }
 
-  print("🚀 Launch!");
+  print("Launch!");
 }
